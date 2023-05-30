@@ -1,0 +1,308 @@
+body{
+    width: 95%;
+    height: auto;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fondo{
+    background-image: linear-gradient(126.05deg,rgb(241 42 42/90%) 25.95%,#bf1ceb 44.46%,#06ad57 65.35%,rgb(6 173 87/60%) 76.7%);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    border-radius: 100%;
+    -webkit-filter: blur(150px);
+    filter: blur(150px);
+    height: 30vh;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    opacity: .9;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 70vw;
+    z-index: -1;
+
+}
+header{
+    height: 80px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+.cajaheader1{
+    width: 200px;
+    height: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.712);
+    border-radius: 0.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}
+.cajaheader2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajaheader2 h1{
+    margin: 0;
+    cursor: pointer;
+}
+.cajaheader3{
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.botoniniciarsesion{
+    width: 140px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.cuerpo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titulocuerpo{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+.caja1cuerpo{
+    display: flex;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 22, 31);
+    color: white;
+    height: 60px;
+}
+
+.caja2cuerpo{
+    width: 45%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+    border-radius: 1rem;
+    flex-direction: column;
+    text-align: center;
+}
+.caja2cuerpo p, h3, a, button{
+    margin: 8px;
+} 
+
+.caja2cuerpo .pcaja2cuerpo{
+    font-size: 0.8rem;
+}
+.caja2cuerpo .h2cuerpo{
+    cursor: pointer;
+}
+.caja2cuerpo .botonpruebalogratis{
+    width: 55%;
+    height: 55px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.caja2cuerpo .MIPremium{
+    color: rgb(211, 194, 194);
+}
+.caja2cuerpo .premiumgratis{
+    cursor: pointer;
+}
+.caja2cuerpo .preciopremium{
+    cursor: pointer;
+}
+
+
+.caja3cuerpo{
+    width: 45%;
+    height: 40px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.caja3cuerpo .descuentoanual b{
+    margin-left: 200px;
+}
+.caja3cuerpo .botondescuentoanual{
+    width: 70px;
+    height: 30px;
+    border: 2px transparent;
+    border-radius: 25px;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+    color: white;
+    cursor: pointer;
+}
+
+.caja4cuerpo{
+    width: 45%;
+    height: 40px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.caja4cuerpo .descuentoestudiantes b{
+    margin-left: 160px;
+}
+.caja4cuerpo .botonestudiante{
+    width: 70px;
+    height: 30px;
+    border: 2px transparent;
+    border-radius: 25px;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+    color: white;
+    cursor: pointer;
+}
+
+.caja5cuerpo{
+    width: 45%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e);
+    border-radius: 1rem;
+    flex-direction: column;
+}
+.caja5cuerpo .pcaja5cuerpo{
+    font-size: 0.8rem;
+}
+.caja5cuerpo .h5cuerpo{
+    cursor: pointer;
+}
+.caja5cuerpo .botoncaja5cuerpo{
+    width: 55%;
+    height: 55px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.caja5cuerpo .MIFamily{
+    color: rgb(211, 194, 194);
+}
+.caja5cuerpo .primermesgratis{
+    cursor: pointer;
+}
+.caja5cuerpo .precioprimermesgratis{
+    cursor: pointer;
+}
+
+
+.caja6cuerpo{
+    width: 45%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(180deg,#202122,#3a3b47 55.56%);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.caja6cuerpo .tigo6cuerpo{
+    width: 4%;
+}
+.caja6cuerpo .OfertaTigo{
+    width: 55%;
+    height: 55px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    cursor: pointer;   
+}
+
+.caja7cuerpo{
+    width: 45%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(166deg,#202122 39%,#3c3c49 82%);
+    border-radius: 1rem;
+}
+.caja7cuerpo .Tarjetaderegalo{
+    width: 55%;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    cursor: pointer; 
+}
+
+.caja8cuerpo{
+    height: 200px;
+    font-size: 1rem;
+    text-align: center;
+    width: 45%;
+    color: gray;
+    justify-content: center;
+}
+.caja8cuerpo .texto{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.caja9cuerpo{
+    align-items: center;
+    justify-content: center;
+}
+.caja9cuerpo .apple{
+    align-items: center;
+    justify-content: center;
+}
+.caja9cuerpo .playstore{
+    align-items: center;
+    justify-content: center;
+}
